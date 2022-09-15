@@ -24,8 +24,8 @@ h4
 }
 
 img {
-  max-inline-size: 100%;
-  block-size: auto;
+  width: 100%;
+  height: auto;
 }
 
 .jumbotron {
