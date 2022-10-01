@@ -63,7 +63,14 @@
         <h1 class="display-4">I like Turtles!</h1>
         <p class="lead">Welcome to my awesome page about Turtles.</p>
         <picture>
-          <source type="image/avif" srcset="ocean-turtle-03-opt.avif">
+          <source type="image/avif"
+            sizes="(max-width: 3840px) 40vw, 1536px"
+            srcset="
+            ocean-turtle-03-opt_e1gxfd_c_scale,w_360.avif 360w,
+            ocean-turtle-03-opt_e1gxfd_c_scale,w_774.avif 774w,
+            ocean-turtle-03-opt_e1gxfd_c_scale,w_1136.avif 1136w,
+            ocean-turtle-03-opt_e1gxfd_c_scale,w_1536.avif 1536w"
+          >
           <source type="image/webp" srcset="ocean-turtle-03-opt.webp">
           <img
             sizes="(max-width: 3840px) 40vw, 1536px"
