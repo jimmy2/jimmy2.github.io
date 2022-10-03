@@ -1,1 +1,63 @@
-picture-element.html
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		img {
+		  max-width: 100%;
+		  block-size: auto;
+		}
+	</style>
+</head>
+
+<body>
+
+<h1>Picture Element</h1>
+
+
+	
+<picture>
+<source
+media="(max-width: 767px)"
+sizes="(max-width: 1534px) 100vw, 1534px"
+srcset="
+dog_ar_1_1,c_fill,g_auto__c_scale,w_300.jpg 300w,
+dog_ar_1_1,c_fill,g_auto__c_scale,w_809.jpg 809w,
+dog_ar_1_1,c_fill,g_auto__c_scale,w_1026.jpg 1026w,
+dog_ar_1_1,c_fill,g_auto__c_scale,w_1183.jpg 1183w,
+dog_ar_1_1,c_fill,g_auto__c_scale,w_1355.jpg 1355w,
+dog_ar_1_1,c_fill,g_auto__c_scale,w_1517.jpg 1517w,
+dog_ar_1_1,c_fill,g_auto__c_scale,w_1534.jpg 1534w">
+<source
+media="(min-width: 768px) and (max-width: 991px)"
+sizes="(max-width: 1983px) 70vw, 1388px"
+srcset="
+dog_ar_4_3,c_fill,g_auto__c_scale,w_538.jpg 538w,
+dog_ar_4_3,c_fill,g_auto__c_scale,w_1050.jpg 1050w,
+dog_ar_4_3,c_fill,g_auto__c_scale,w_1383.jpg 1383w,
+dog_ar_4_3,c_fill,g_auto__c_scale,w_1285.jpg 1285w,
+dog_ar_4_3,c_fill,g_auto__c_scale,w_1388.jpg 1388w">
+<source
+media="(min-width: 992px) and (max-width: 1199px)"
+sizes="(max-width: 2400px) 60vw, 1440px"
+srcset="
+dog_ar_16_9,c_fill,g_auto__c_scale,w_596.jpg 596w,
+dog_ar_16_9,c_fill,g_auto__c_scale,w_971.jpg 971w,
+dog_ar_16_9,c_fill,g_auto__c_scale,w_1311.jpg 1311w,
+dog_ar_16_9,c_fill,g_auto__c_scale,w_1440.jpg 1440w">
+<img
+sizes="(max-width: 7500px) 40vw, 3000px"
+srcset="
+dog_c_scale,w_480.jpg 480w,
+dog_c_scale,w_1331.jpg 1331w,
+dog_c_scale,w_1942.jpg 1942w,
+dog_c_scale,w_2326.jpg 2326w,
+dog_c_scale,w_2741.jpg 2741w,
+dog_c_scale,w_2842.jpg 2842w,
+dog_c_scale,w_3000.jpg 3000w"
+src="dog_c_scale,w_3000.jpg"
+alt="">
+</picture>
+
+
+
+
+</body>
